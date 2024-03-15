@@ -1,0 +1,177 @@
+.clubLogo{
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.read{
+    background:  url("../img/pitch.png");
+    background-size:  contain;
+    overflow: hidden;
+    color:  #ffffff;
+    border:  0;
+    border-radius:  5px;
+    padding:  2vw;
+    font-size: 20pt;
+    margin-right: 1vw;
+    position: absolute;
+    bottom: 1vh;
+    right: 0;
+}
+
+.read2{
+    background:  url("../img/pitch.png");
+    background-size:  contain;
+    overflow: hidden;
+    color:  #ffffff;
+    border:  0;
+    border-radius:  5px;
+    padding:  2vw;
+    font-size: 20pt;
+    margin-right: 4vw;
+    margin-bottom: 2vw;
+    position: absolute;
+    bottom: 1vh;
+    right: 0;
+}
+
+.read:hover{
+    cursor: pointer;
+}
+
+.read2:hover{
+    cursor: pointer;
+}
+
+.save{
+    text-indent:  -9999px;
+    margin-right: 1vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    height: 8vh;
+    width: 4vw;
+}
+
+.saved{
+    background:  url('../img/voetbalFull.png') no-repeat;
+    background-size:  contain;
+}
+
+.notSaved{
+    background:  url('../img/voetbalEmpty.png') no-repeat;
+    background-size:  contain;
+}
+
+.saved:hover{
+    background:  url('../img/voetbalEmpty.png') no-repeat;
+    background-size:  contain;
+    cursor:  pointer;
+}
+
+.notSaved:hover{
+    background:  url('../img/voetbalFull.png') no-repeat;
+    background-size:  contain;
+    cursor:  pointer;
+}
+
+.detailPageHolder{
+    position: fixed;
+    top: 5vh;
+    left: 1vw;
+}
+
+.detailPage{
+    z-index: 1;
+    border: 0;
+    border-radius: 5px;
+    padding: 1vw;
+    width: 96vw;
+    height: 90vh;
+    background: #ffffff;
+    box-shadow: 2px 2px 5px gray;
+}
+
+#show{
+    display: block;
+}
+
+#hide{
+    display: none;
+}
+
+.noScroll{
+    overflow: hidden;
+}
+
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    font-size: 40px;
+    background: none;
+    color: #ffffff;
+}
+
+.close:hover{
+    cursor: pointer;
+}
+
+.content-holder{
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gray;
+    padding: 20px;
+    margin: 10px;
+    position: relative;
+}
+
+.innerContentBox{
+    float: left;
+    width: 33.33%;
+    /*height: 300px;*/
+    margin-left: 2vw;
+    position: relative;
+    overflow: hidden;
+}
+
+.innerInfoContentBox{
+    float: left;
+    width: 30%;
+    /*height: 75vw;*/
+    margin-left: 2vw;
+    position: relative;
+    /*overflow: hidden;*/
+}
+
+.innerTopInfoContentBox{
+    float: left;
+    width: 100%;
+    margin-left: 2vw;
+    position: relative;
+    margin-right: 2vw;
+    /*overflow: hidden;*/
+}
+
+.innerBotInfoContentBox{
+    float: left;
+    width: 100%;
+    margin-left: 2vw;
+    position: relative;
+    margin-right: 2vw;
+    margin-top: 2vw;
+    /*overflow: hidden;*/
+}
+
+.contentBox{
+    /*height: 300px;*/
+    border-radius:  5px;
+    box-shadow:  2px 2px 5px gray;
+    padding:  20px;
+    margin:  10px;
+    display:  flex;
+    justify-content:  space-around;
+    position:  relative;
+}
